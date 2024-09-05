@@ -19,7 +19,7 @@ win.state('zoomed')
 win.configure(bg='pink')
 win.resizable(width=False,height=False)
 
-title=Label(win,text="Banking Automation",font=('arial',50,'bold','underline'),bg='pink')
+title=Label(win,text="Banking Automation",font=('arial',51,'bold','underline'),bg='pink')
 title.pack()
 dt=time.strftime("%d %B %Y,%A")
 date=Label(win,text=f"{dt}",font=('arial',30,'bold'),bg='pink')
